@@ -1,3 +1,8 @@
 venv
 *.sqlite3
 .idea
+
+# Real environment files may contain secrets. The example file is safe to commit.
+.env
+.env.*
+!.env.example
